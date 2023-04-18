@@ -1,17 +1,17 @@
 terraform {
-
+/*
   cloud {
-    organization = "organization-name"
+    organization = "bd-sandbox"
 
     workspaces {
       name = "learn-terraform-cloud"
     }
   }
-
+*/
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 3.28.0"
+      version = "~> 4.63.0"
     }
   }
 
